@@ -15,80 +15,8 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="style/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      /* Common styles for all screen sizes */
-      .hero {
-        position: relative;
-        max-width: 100%;
-        background-color: var(--base-200);
-        border: 2px solid var(--gray-300);
-      }
-
-      .hero img {
-        width: 100%;
-        border: 2px solid var(--gray-300);
-      }
-
-      /* Styles for LG screens and larger */
-      @media (min-width: 1024px) {
-        .hero .text-rose-400 {
-          top: 370px;
-          right: 320px;
-        }
-      }
-
-      /* Styles for mobile LG screens */
-      @media (max-width: 1023px) {
-        .hero .text-rose-400 {
-          top: unset; /* Remove top positioning */
-          right: unset; /* Remove right positioning */
-          bottom: 90px; /* Add bottom positioning */
-          left: 50%; /* Center horizontally */
-          transform: translateX(-50%); /* Adjust centering */
-          font-size: 1em;
-        }
-      }
-
-      .coupon-container {
-        background-image: url(../images/Rectangle\ 9.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 15em;
-        /* padding-top: 5rem; */
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        text-align: center;
-      }
-      .coupon-title {
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        color: rgb(39, 39, 39);
-        font-size: 40px;
-        padding-top: 1.5rem;
-      }
-      .coupon-description {
-        font-size: 16px;
-        padding-top: 0.5rem;
-        padding-bottom: 1.5rem;
-      }
-
-      #subscription {
-        height: 35px;
-        width: 480px;
-        border: none;
-        border-radius: 4px;
-      }
-      .btn-sub {
-        width: 100px;
-        height: 30px;
-        background-color: rgb(229, 84, 115);
-        color: white;
-        border: none;
-        border-radius: 4px;
-      }
-    </style>
   </head>
   <body>
     <header>
