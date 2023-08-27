@@ -1,3 +1,42 @@
+/* Header Banner Part*/
+
+.banner-container {
+  background-color: rgb(253, 238, 241);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-description {
+  padding: 50px;
+  margin-left: 190px;
+}
+.tagline {
+  color: rgb(39, 39, 39);
+  font-size: 90px;
+  padding-bottom: 0.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.description {
+  padding-bottom: 0.5rem;
+  color: rgb(122, 117, 117);
+}
+.shop-now-btn {
+  background-color: rgb(229, 84, 115);
+  color: white;
+  font-size: 17px;
+  padding: 12px 30px;
+  margin-top: 0.5rem;
+  border-radius: 0.5em;
+  border-style: none;
+}
+.banner-image {
+  padding-top: 50px;
+  padding-right: 80px;
+  margin-right: 170px;
+  height: 635px;
+  width: 500px;
+}
+
 /* Common styles for all screen sizes */
 .hero {
   position: relative;
